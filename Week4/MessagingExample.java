@@ -18,7 +18,7 @@ import java.util.List;
 // Listener interface (event handler)
 interface MessageListener {
 
-    void onMessage(String message);
+    void onMessage(String message);// Methods are public by default in an interface
 }
 
 // Publisher (event source)
