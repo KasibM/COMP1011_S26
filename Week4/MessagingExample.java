@@ -44,7 +44,7 @@ class MessagePublisher {
 // Subscriber (event handler)
 //subscribers can be of different types- as long as the subscriber implements the MessageListener and defines the onMessage method to react differently to the same event
 class MessageSubscriber implements MessageListener {
-
+    @Override
     public void onMessage(String message) {
         try {
             System.out.println("Subscriber instance: " + this);
