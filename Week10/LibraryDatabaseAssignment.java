@@ -194,21 +194,21 @@ public class LibraryDatabaseAssignment {
                 case 3 ->
                     createMembersTable();
                 case 4 ->
-                    
+                    createLoansTable();
                 case 5 ->
-                   
+                    dropLoansTable();
                 case 6 ->
-                    
+                    addBook();
                 case 7 ->
-                   
+                    addMember();
                 case 8 ->
-                    
+                    issueBook();
                 case 9 ->
-                    
+                    viewBooks();
                 case 10 ->
-                    
+                    viewMembers();
                 case 11 ->
-                    
+                    viewLoans();
                 case 0 ->
                     System.out.println("Goodbye");
                 default ->
