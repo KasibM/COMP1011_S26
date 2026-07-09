@@ -109,10 +109,21 @@ public class LibraryDatabaseAssignment {
     // PART A: LOANS TABLE
     // =========================
     static void createLoansTable() {
+        String sql = """
+        CREATE TABLE IF NOT EXISTS loans(
+           loan_id CHAR(8) PRIMARY KEY,
+           CONSTRAINT fk_book FOREIGN KEY book_id REFERENCES books(book_id) ,
+           CONSTRAINT fk_member FOREIGN KEY member_id REFERENCES members(member_id)
 
+        )
+        """;
+        
     }
 
     static void dropLoansTable() {
+        String sql = """
+        DROP TABLE IF EXISTS loans
+        """;
 
     }
 

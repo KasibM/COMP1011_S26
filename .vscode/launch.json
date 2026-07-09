@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LibraryDatabaseAssignment",
+            "request": "launch",
+            "mainClass": "LibraryDatabaseAssignment",
+            "projectName": "COMP1011_S26_b0302072"
+        },
+        {
+            "type": "java",
+            "name": "LibraryDatabase",
+            "request": "launch",
+            "mainClass": "LibraryDatabase",
+            "projectName": "COMP1011_S26_b0302072"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
