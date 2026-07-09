@@ -10,7 +10,7 @@ JAVA STREAMS – WAYS TO CREATE STREAMS
 
 1) FROM A COLLECTION (MOST COMMON)
 
-List<Integer> list = Arrays.asList(1, 2, 3);
+List<Integer> list = Arrays.%(1, 2, 3);
 
 Stream<Integer> s = list.stream();
 

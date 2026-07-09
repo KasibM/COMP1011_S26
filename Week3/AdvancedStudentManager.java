@@ -1,5 +1,5 @@
 /*
-The purpose of this program is to create a console-based Student Management System that demonstrates modern Java features such as Streams, Lambdas, Collectors, and Switch Expressions. 
+The purpose of this program is to create a console-based Student Management System that demonstrates modern Java features such as Streams, Lambdas, 'Collect'ors, and Switch Expressions. 
  */
 import java.util.*;
 import java.util.stream.Collectors;
